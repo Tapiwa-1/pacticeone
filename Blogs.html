@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  
+  <title>Document</title>
+</head>
+<body>
+  <aside>
+    <figure>
+      <div class="avator"></div>
+      <figcaption>Tapiwa Motsi</figcaption>
+      
+    </figure>
+    <img src="img/menu.svg">
+    <nav>
+      <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a class="hover" href="Blogs.html">Blogs</a></li>
+        <li><a href="About.html">About Me</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <h2>Future technology: 25 ideas about to change our world</h2>
+    
+    
+  </main>
+  <script>
+        
+    (function() {
+        var menu = document.querySelector('ul'),
+            menulink = document.querySelector('img');
+        
+        menulink.addEventListener('click', function(e) {
+            menu.classList.toggle('active');
+            e.preventDefault();
+        });
+    })();
+
+</script>
+</body>
+</html>
